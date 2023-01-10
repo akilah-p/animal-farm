@@ -1,6 +1,6 @@
 import './Animal.css';
 export default function Animal({ name, says, top, left, type }) {
-  console.log(name);
+  
   return (
     <div className="animal" style={{ top, left }}>
       <img alt={name} src={`./animals/${type}.svg`} />
